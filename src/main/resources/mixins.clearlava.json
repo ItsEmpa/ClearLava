@@ -4,9 +4,7 @@
   "minVersion": "0.7",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinBlockLiquid",
-    "MixinFMLHandshakeMessageModList",
-    "MixinSkytilsFunny"
+    "MixinBlockLiquid"
   ],
   "client": [
     "MixinBlockFluidRenderer",
