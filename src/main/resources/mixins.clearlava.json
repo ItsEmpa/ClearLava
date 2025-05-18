@@ -1,0 +1,15 @@
+{
+  "package": "com.github.itsempa.clearlava.mixin",
+  "refmap": "mixins.clearlava.refmap.json",
+  "minVersion": "0.7",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBlockLiquid",
+    "MixinFMLHandshakeMessageModList",
+    "MixinSkytilsFunny"
+  ],
+  "client": [
+    "MixinBlockFluidRenderer",
+    "MixinEntityRenderer"
+  ]
+}
